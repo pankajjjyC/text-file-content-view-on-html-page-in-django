@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../reset-meyer.css">
+<style type="text/css">
+body {
+	margin:10px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif
+}
+
+#box1{
+	width:1200px;
+	height:800px;
+	margin:10px;
+	padding:10px;
+}
+
+#box1 {
+	background:rgb(223, 32, 150);
+}
+
+h2, p  {
+	padding:5px;
+}
+
+#box1 p{
+	white-space:pre;
+	font-size:smaller;
+	font-family:monospace;
+}
+</style>
+<title>text file view</title>
+</head>
+<body>
+    <h2>by default please read file1</h2>
+    <h3>else type in url, file name you're looking for</h3>
+    <pre>
+        if you want specific content of text file line by line,
+        write file_name/line_no1/line_no2
+        eg file2/4/5
+        it will show content of text file , file2
+        from line 4 to line 5 
+    
+    </pre>
+<div id="box1">
+	{{file_content}}
+</div>
+
+</body>
+</html>
+
+
+
+
+
